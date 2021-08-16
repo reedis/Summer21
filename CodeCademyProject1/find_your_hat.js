@@ -39,12 +39,12 @@ class Field {
   askQuestion() {
       const answer = prompt('Which way? ').toUpperCase();
       switch(answer){
-          case 'W':
+            case 'W':
               this.locationY -= 1;
               break;
             case 'S':
                 this.locationY += 1;
-                break;
+               break;
             case 'A':
                 this.locationX -= 1;
                 break;
